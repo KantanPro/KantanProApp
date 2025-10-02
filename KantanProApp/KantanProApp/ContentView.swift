@@ -3,7 +3,7 @@
 //  KantanProApp
 //
 //  Created by カンタンPro on 2025/10/02.
-//
+// テスト
 
 import SwiftUI
 
