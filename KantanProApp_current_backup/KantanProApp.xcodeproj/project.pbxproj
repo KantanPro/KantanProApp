@@ -7,32 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
-		E8BD51AA2E8E427200437CB9 /* KantanProAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD51A92E8E427200437CB9 /* KantanProAppApp.swift */; };
-		E8BD51AC2E8E427200437CB9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD51AB2E8E427200437CB9 /* Persistence.swift */; };
-		E8BD51AF2E8E427200437CB9 /* KantanProApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8BD51AD2E8E427200437CB9 /* KantanProApp.xcdatamodeld */; };
-		E8BD51B12E8E427300437CB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD51B02E8E427300437CB9 /* ContentView.swift */; };
-		E8BD51B32E8E427600437CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8BD51B22E8E427600437CB9 /* Assets.xcassets */; };
-		E8BD51B72E8E427600437CB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8BD51B62E8E427600437CB9 /* Preview Assets.xcassets */; };
-		E8BD51C12E8E427600437CB9 /* KantanProAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD51C02E8E427600437CB9 /* KantanProAppTests.swift */; };
-		E8BD51CB2E8E427600437CB9 /* KantanProAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD51CA2E8E427600437CB9 /* KantanProAppUITests.swift */; };
-		E8BD51CD2E8E427600437CB9 /* KantanProAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD51CC2E8E427600437CB9 /* KantanProAppUITestsLaunchTests.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E8BD51BD2E8E427600437CB9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E8BD519E2E8E427200437CB9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E8BD51A52E8E427200437CB9;
-			remoteInfo = KantanProApp;
-		};
-		E8BD51C72E8E427600437CB9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E8BD519E2E8E427200437CB9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E8BD51A52E8E427200437CB9;
-=======
 		E8BD50B92E8DFC0400437CB9 /* KantanProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD50B82E8DFC0400437CB9 /* KantanProApp.swift */; };
 		E8BD50BB2E8DFC0400437CB9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD50BA2E8DFC0400437CB9 /* Persistence.swift */; };
 		E8BD50BE2E8DFC0400437CB9 /* KantanProApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8BD50BC2E8DFC0400437CB9 /* KantanProApp.xcdatamodeld */; };
@@ -67,31 +41,11 @@
 			containerPortal = E8BD50AD2E8DFC0400437CB9 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E8BD50B42E8DFC0400437CB9;
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			remoteInfo = KantanProApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
-		E8BD51A62E8E427200437CB9 /* KantanProApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KantanProApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8BD51A92E8E427200437CB9 /* KantanProAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KantanProAppApp.swift; sourceTree = "<group>"; };
-		E8BD51AB2E8E427200437CB9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		E8BD51AE2E8E427200437CB9 /* KantanProApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KantanProApp.xcdatamodel; sourceTree = "<group>"; };
-		E8BD51B02E8E427300437CB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E8BD51B22E8E427600437CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E8BD51B42E8E427600437CB9 /* KantanProApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KantanProApp.entitlements; sourceTree = "<group>"; };
-		E8BD51B62E8E427600437CB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E8BD51BC2E8E427600437CB9 /* KantanProAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KantanProAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8BD51C02E8E427600437CB9 /* KantanProAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KantanProAppTests.swift; sourceTree = "<group>"; };
-		E8BD51C62E8E427600437CB9 /* KantanProAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KantanProAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8BD51CA2E8E427600437CB9 /* KantanProAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KantanProAppUITests.swift; sourceTree = "<group>"; };
-		E8BD51CC2E8E427600437CB9 /* KantanProAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KantanProAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		E8BD51A32E8E427200437CB9 /* Frameworks */ = {
-=======
 		E8BD50B52E8DFC0400437CB9 /* KantanProApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KantanProApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8BD50B82E8DFC0400437CB9 /* KantanProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KantanProApp.swift; path = KantanProApp/KantanProApp.swift; sourceTree = "<group>"; };
 		E8BD50BA2E8DFC0400437CB9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Persistence.swift; path = KantanProApp/Persistence.swift; sourceTree = "<group>"; };
@@ -120,29 +74,20 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		E8BD50B22E8DFC0400437CB9 /* Frameworks */ = {
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-<<<<<<< HEAD
-		E8BD51B92E8E427600437CB9 /* Frameworks */ = {
-=======
 		E8BD50C92E8DFC0900437CB9 /* Frameworks */ = {
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-<<<<<<< HEAD
-		E8BD51C32E8E427600437CB9 /* Frameworks */ = {
-=======
 		E8BD50D32E8DFC0900437CB9 /* Frameworks */ = {
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -152,24 +97,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-<<<<<<< HEAD
-		E8BD519D2E8E427200437CB9 = {
-			isa = PBXGroup;
-			children = (
-				E8BD51A82E8E427200437CB9 /* KantanProApp */,
-				E8BD51BF2E8E427600437CB9 /* KantanProAppTests */,
-				E8BD51C92E8E427600437CB9 /* KantanProAppUITests */,
-				E8BD51A72E8E427200437CB9 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		E8BD51A72E8E427200437CB9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E8BD51A62E8E427200437CB9 /* KantanProApp.app */,
-				E8BD51BC2E8E427600437CB9 /* KantanProAppTests.xctest */,
-				E8BD51C62E8E427600437CB9 /* KantanProAppUITests.xctest */,
-=======
 		E8BD50AC2E8DFC0400437CB9 = {
 			isa = PBXGroup;
 			children = (
@@ -203,39 +130,10 @@
 				E8BD50B52E8DFC0400437CB9 /* KantanProApp.app */,
 				E8BD50CC2E8DFC0900437CB9 /* KantanProAppTests.xctest */,
 				E8BD50D62E8DFC0900437CB9 /* KantanProAppUITests.xctest */,
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-		E8BD51A82E8E427200437CB9 /* KantanProApp */ = {
-			isa = PBXGroup;
-			children = (
-				E8BD51A92E8E427200437CB9 /* KantanProAppApp.swift */,
-				E8BD51AB2E8E427200437CB9 /* Persistence.swift */,
-				E8BD51B02E8E427300437CB9 /* ContentView.swift */,
-				E8BD51B22E8E427600437CB9 /* Assets.xcassets */,
-				E8BD51B42E8E427600437CB9 /* KantanProApp.entitlements */,
-				E8BD51AD2E8E427200437CB9 /* KantanProApp.xcdatamodeld */,
-				E8BD51B52E8E427600437CB9 /* Preview Content */,
-			);
-			path = KantanProApp;
-			sourceTree = "<group>";
-		};
-		E8BD51B52E8E427600437CB9 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				E8BD51B62E8E427600437CB9 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		E8BD51BF2E8E427600437CB9 /* KantanProAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				E8BD51C02E8E427600437CB9 /* KantanProAppTests.swift */,
-=======
 		E8BD50C42E8DFC0800437CB9 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,24 +147,15 @@
 			isa = PBXGroup;
 			children = (
 				E8BD50D02E8DFC0900437CB9 /* KantanProAppTests.swift */,
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			);
 			path = KantanProAppTests;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-		E8BD51C92E8E427600437CB9 /* KantanProAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E8BD51CA2E8E427600437CB9 /* KantanProAppUITests.swift */,
-				E8BD51CC2E8E427600437CB9 /* KantanProAppUITestsLaunchTests.swift */,
-=======
 		E8BD50D92E8DFC0900437CB9 /* KantanProAppUITests */ = {
 			isa = PBXGroup;
 			children = (
 				E8BD50DA2E8DFC0900437CB9 /* KantanProAppUITests.swift */,
 				E8BD50DC2E8DFC0900437CB9 /* KantanProAppUITestsLaunchTests.swift */,
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			);
 			path = KantanProAppUITests;
 			sourceTree = "<group>";
@@ -274,15 +163,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-<<<<<<< HEAD
-		E8BD51A52E8E427200437CB9 /* KantanProApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E8BD51D02E8E427600437CB9 /* Build configuration list for PBXNativeTarget "KantanProApp" */;
-			buildPhases = (
-				E8BD51A22E8E427200437CB9 /* Sources */,
-				E8BD51A32E8E427200437CB9 /* Frameworks */,
-				E8BD51A42E8E427200437CB9 /* Resources */,
-=======
 		E8BD50B42E8DFC0400437CB9 /* KantanProApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8BD50E02E8DFC0900437CB9 /* Build configuration list for PBXNativeTarget "KantanProApp" */;
@@ -290,7 +170,6 @@
 				E8BD50B12E8DFC0400437CB9 /* Sources */,
 				E8BD50B22E8DFC0400437CB9 /* Frameworks */,
 				E8BD50B32E8DFC0400437CB9 /* Resources */,
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			);
 			buildRules = (
 			);
@@ -298,18 +177,6 @@
 			);
 			name = KantanProApp;
 			productName = KantanProApp;
-<<<<<<< HEAD
-			productReference = E8BD51A62E8E427200437CB9 /* KantanProApp.app */;
-			productType = "com.apple.product-type.application";
-		};
-		E8BD51BB2E8E427600437CB9 /* KantanProAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E8BD51D32E8E427600437CB9 /* Build configuration list for PBXNativeTarget "KantanProAppTests" */;
-			buildPhases = (
-				E8BD51B82E8E427600437CB9 /* Sources */,
-				E8BD51B92E8E427600437CB9 /* Frameworks */,
-				E8BD51BA2E8E427600437CB9 /* Resources */,
-=======
 			productReference = E8BD50B52E8DFC0400437CB9 /* KantanProApp.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -320,27 +187,10 @@
 				E8BD50C82E8DFC0900437CB9 /* Sources */,
 				E8BD50C92E8DFC0900437CB9 /* Frameworks */,
 				E8BD50CA2E8DFC0900437CB9 /* Resources */,
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			);
 			buildRules = (
 			);
 			dependencies = (
-<<<<<<< HEAD
-				E8BD51BE2E8E427600437CB9 /* PBXTargetDependency */,
-			);
-			name = KantanProAppTests;
-			productName = KantanProAppTests;
-			productReference = E8BD51BC2E8E427600437CB9 /* KantanProAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E8BD51C52E8E427600437CB9 /* KantanProAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E8BD51D62E8E427600437CB9 /* Build configuration list for PBXNativeTarget "KantanProAppUITests" */;
-			buildPhases = (
-				E8BD51C22E8E427600437CB9 /* Sources */,
-				E8BD51C32E8E427600437CB9 /* Frameworks */,
-				E8BD51C42E8E427600437CB9 /* Resources */,
-=======
 				E8BD50CE2E8DFC0900437CB9 /* PBXTargetDependency */,
 			);
 			name = KantanProAppTests;
@@ -355,56 +205,27 @@
 				E8BD50D22E8DFC0900437CB9 /* Sources */,
 				E8BD50D32E8DFC0900437CB9 /* Frameworks */,
 				E8BD50D42E8DFC0900437CB9 /* Resources */,
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			);
 			buildRules = (
 			);
 			dependencies = (
-<<<<<<< HEAD
-				E8BD51C82E8E427600437CB9 /* PBXTargetDependency */,
-			);
-			name = KantanProAppUITests;
-			productName = KantanProAppUITests;
-			productReference = E8BD51C62E8E427600437CB9 /* KantanProAppUITests.xctest */;
-=======
 				E8BD50D82E8DFC0900437CB9 /* PBXTargetDependency */,
 			);
 			name = KantanProAppUITests;
 			productName = KantanProAppUITests;
 			productReference = E8BD50D62E8DFC0900437CB9 /* KantanProAppUITests.xctest */;
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-<<<<<<< HEAD
-		E8BD519E2E8E427200437CB9 /* Project object */ = {
-=======
 		E8BD50AD2E8DFC0400437CB9 /* Project object */ = {
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-<<<<<<< HEAD
-					E8BD51A52E8E427200437CB9 = {
-						CreatedOnToolsVersion = 15.2;
-					};
-					E8BD51BB2E8E427600437CB9 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = E8BD51A52E8E427200437CB9;
-					};
-					E8BD51C52E8E427600437CB9 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = E8BD51A52E8E427200437CB9;
-					};
-				};
-			};
-			buildConfigurationList = E8BD51A12E8E427200437CB9 /* Build configuration list for PBXProject "KantanProApp" */;
-=======
 					E8BD50B42E8DFC0400437CB9 = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -419,7 +240,6 @@
 				};
 			};
 			buildConfigurationList = E8BD50B02E8DFC0400437CB9 /* Build configuration list for PBXProject "KantanProApp" */;
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -427,16 +247,6 @@
 				en,
 				Base,
 			);
-<<<<<<< HEAD
-			mainGroup = E8BD519D2E8E427200437CB9;
-			productRefGroup = E8BD51A72E8E427200437CB9 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				E8BD51A52E8E427200437CB9 /* KantanProApp */,
-				E8BD51BB2E8E427600437CB9 /* KantanProAppTests */,
-				E8BD51C52E8E427600437CB9 /* KantanProAppUITests */,
-=======
 			mainGroup = E8BD50AC2E8DFC0400437CB9;
 			productRefGroup = E8BD50B62E8DFC0400437CB9 /* Products */;
 			projectDirPath = "";
@@ -445,24 +255,11 @@
 				E8BD50B42E8DFC0400437CB9 /* KantanProApp */,
 				E8BD50CB2E8DFC0900437CB9 /* KantanProAppTests */,
 				E8BD50D52E8DFC0900437CB9 /* KantanProAppUITests */,
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-<<<<<<< HEAD
-		E8BD51A42E8E427200437CB9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E8BD51B72E8E427600437CB9 /* Preview Assets.xcassets in Resources */,
-				E8BD51B32E8E427600437CB9 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E8BD51BA2E8E427600437CB9 /* Resources */ = {
-=======
 		E8BD50B32E8DFC0400437CB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -473,18 +270,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E8BD50CA2E8DFC0900437CB9 /* Resources */ = {
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-<<<<<<< HEAD
-		E8BD51C42E8E427600437CB9 /* Resources */ = {
-=======
 		E8BD50D42E8DFC0900437CB9 /* Resources */ = {
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -494,33 +286,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-<<<<<<< HEAD
-		E8BD51A22E8E427200437CB9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E8BD51AF2E8E427200437CB9 /* KantanProApp.xcdatamodeld in Sources */,
-				E8BD51AA2E8E427200437CB9 /* KantanProAppApp.swift in Sources */,
-				E8BD51B12E8E427300437CB9 /* ContentView.swift in Sources */,
-				E8BD51AC2E8E427200437CB9 /* Persistence.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E8BD51B82E8E427600437CB9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E8BD51C12E8E427600437CB9 /* KantanProAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E8BD51C22E8E427600437CB9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E8BD51CB2E8E427600437CB9 /* KantanProAppUITests.swift in Sources */,
-				E8BD51CD2E8E427600437CB9 /* KantanProAppUITestsLaunchTests.swift in Sources */,
-=======
 		E8BD50B12E8DFC0400437CB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -556,24 +321,12 @@
 			files = (
 				E8BD50DB2E8DFC0900437CB9 /* KantanProAppUITests.swift in Sources */,
 				E8BD50DD2E8DFC0900437CB9 /* KantanProAppUITestsLaunchTests.swift in Sources */,
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-<<<<<<< HEAD
-		E8BD51BE2E8E427600437CB9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E8BD51A52E8E427200437CB9 /* KantanProApp */;
-			targetProxy = E8BD51BD2E8E427600437CB9 /* PBXContainerItemProxy */;
-		};
-		E8BD51C82E8E427600437CB9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E8BD51A52E8E427200437CB9 /* KantanProApp */;
-			targetProxy = E8BD51C72E8E427600437CB9 /* PBXContainerItemProxy */;
-=======
 		E8BD50CE2E8DFC0900437CB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E8BD50B42E8DFC0400437CB9 /* KantanProApp */;
@@ -583,16 +336,11 @@
 			isa = PBXTargetDependency;
 			target = E8BD50B42E8DFC0400437CB9 /* KantanProApp */;
 			targetProxy = E8BD50D72E8DFC0900437CB9 /* PBXContainerItemProxy */;
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-<<<<<<< HEAD
-		E8BD51CE2E8E427600437CB9 /* Debug */ = {
-=======
 		E8BD50DE2E8DFC0900437CB9 /* Debug */ = {
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -653,11 +401,7 @@
 			};
 			name = Debug;
 		};
-<<<<<<< HEAD
-		E8BD51CF2E8E427600437CB9 /* Release */ = {
-=======
 		E8BD50DF2E8DFC0900437CB9 /* Release */ = {
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -710,11 +454,7 @@
 			};
 			name = Release;
 		};
-<<<<<<< HEAD
-		E8BD51D12E8E427600437CB9 /* Debug */ = {
-=======
 		E8BD50E12E8DFC0900437CB9 /* Debug */ = {
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -727,10 +467,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-<<<<<<< HEAD
-=======
 				INFOPLIST_FILE = KantanProApp/Info.plist;
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -756,11 +493,7 @@
 			};
 			name = Debug;
 		};
-<<<<<<< HEAD
-		E8BD51D22E8E427600437CB9 /* Release */ = {
-=======
 		E8BD50E22E8DFC0900437CB9 /* Release */ = {
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -773,10 +506,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-<<<<<<< HEAD
-=======
 				INFOPLIST_FILE = KantanProApp/Info.plist;
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -802,11 +532,7 @@
 			};
 			name = Release;
 		};
-<<<<<<< HEAD
-		E8BD51D42E8E427600437CB9 /* Debug */ = {
-=======
 		E8BD50E42E8DFC0900437CB9 /* Debug */ = {
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -829,11 +555,7 @@
 			};
 			name = Debug;
 		};
-<<<<<<< HEAD
-		E8BD51D52E8E427600437CB9 /* Release */ = {
-=======
 		E8BD50E52E8DFC0900437CB9 /* Release */ = {
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -856,11 +578,7 @@
 			};
 			name = Release;
 		};
-<<<<<<< HEAD
-		E8BD51D72E8E427600437CB9 /* Debug */ = {
-=======
 		E8BD50E72E8DFC0900437CB9 /* Debug */ = {
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -882,11 +600,7 @@
 			};
 			name = Debug;
 		};
-<<<<<<< HEAD
-		E8BD51D82E8E427600437CB9 /* Release */ = {
-=======
 		E8BD50E82E8DFC0900437CB9 /* Release */ = {
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -911,70 +625,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-<<<<<<< HEAD
-		E8BD51A12E8E427200437CB9 /* Build configuration list for PBXProject "KantanProApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E8BD51CE2E8E427600437CB9 /* Debug */,
-				E8BD51CF2E8E427600437CB9 /* Release */,
-=======
 		E8BD50B02E8DFC0400437CB9 /* Build configuration list for PBXProject "KantanProApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E8BD50DE2E8DFC0900437CB9 /* Debug */,
 				E8BD50DF2E8DFC0900437CB9 /* Release */,
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-<<<<<<< HEAD
-		E8BD51D02E8E427600437CB9 /* Build configuration list for PBXNativeTarget "KantanProApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E8BD51D12E8E427600437CB9 /* Debug */,
-				E8BD51D22E8E427600437CB9 /* Release */,
-=======
 		E8BD50E02E8DFC0900437CB9 /* Build configuration list for PBXNativeTarget "KantanProApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E8BD50E12E8DFC0900437CB9 /* Debug */,
 				E8BD50E22E8DFC0900437CB9 /* Release */,
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-<<<<<<< HEAD
-		E8BD51D32E8E427600437CB9 /* Build configuration list for PBXNativeTarget "KantanProAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E8BD51D42E8E427600437CB9 /* Debug */,
-				E8BD51D52E8E427600437CB9 /* Release */,
-=======
 		E8BD50E32E8DFC0900437CB9 /* Build configuration list for PBXNativeTarget "KantanProAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E8BD50E42E8DFC0900437CB9 /* Debug */,
 				E8BD50E52E8DFC0900437CB9 /* Release */,
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-<<<<<<< HEAD
-		E8BD51D62E8E427600437CB9 /* Build configuration list for PBXNativeTarget "KantanProAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E8BD51D72E8E427600437CB9 /* Debug */,
-				E8BD51D82E8E427600437CB9 /* Release */,
-=======
 		E8BD50E62E8DFC0900437CB9 /* Build configuration list for PBXNativeTarget "KantanProAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E8BD50E72E8DFC0900437CB9 /* Debug */,
 				E8BD50E82E8DFC0900437CB9 /* Release */,
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -982,15 +664,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-<<<<<<< HEAD
-		E8BD51AD2E8E427200437CB9 /* KantanProApp.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				E8BD51AE2E8E427200437CB9 /* KantanProApp.xcdatamodel */,
-			);
-			currentVersion = E8BD51AE2E8E427200437CB9 /* KantanProApp.xcdatamodel */;
-			path = KantanProApp.xcdatamodeld;
-=======
 		E8BD50BC2E8DFC0400437CB9 /* KantanProApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
@@ -999,15 +672,10 @@
 			currentVersion = E8BD50BD2E8DFC0400437CB9 /* KantanProApp.xcdatamodel */;
 			name = KantanProApp.xcdatamodeld;
 			path = KantanProApp/KantanProApp.xcdatamodeld;
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-<<<<<<< HEAD
-	rootObject = E8BD519E2E8E427200437CB9 /* Project object */;
-=======
 	rootObject = E8BD50AD2E8DFC0400437CB9 /* Project object */;
->>>>>>> 550eaca65bbca032a48abde228f525f4f4ac485d
 }
