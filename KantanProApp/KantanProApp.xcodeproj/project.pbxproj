@@ -47,29 +47,29 @@
 
 /* Begin PBXFileReference section */
 		E8BD50B52E8DFC0400437CB9 /* KantanProApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KantanProApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8BD50B82E8DFC0400437CB9 /* KantanProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KantanProApp.swift; sourceTree = "<group>"; };
-		E8BD50BA2E8DFC0400437CB9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E8BD50B82E8DFC0400437CB9 /* KantanProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KantanProApp.swift; path = KantanProApp/KantanProApp.swift; sourceTree = "<group>"; };
+		E8BD50BA2E8DFC0400437CB9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Persistence.swift; path = KantanProApp/Persistence.swift; sourceTree = "<group>"; };
 		E8BD50BD2E8DFC0400437CB9 /* KantanProApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KantanProApp.xcdatamodel; sourceTree = "<group>"; };
-		E8BD50BF2E8DFC0400437CB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E8BD50C12E8DFC0800437CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E8BD50C32E8DFC0800437CB9 /* KantanProApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KantanProApp.entitlements; sourceTree = "<group>"; };
+		E8BD50BF2E8DFC0400437CB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = KantanProApp/ContentView.swift; sourceTree = "<group>"; };
+		E8BD50C12E8DFC0800437CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = KantanProApp/Assets.xcassets; sourceTree = "<group>"; };
+		E8BD50C32E8DFC0800437CB9 /* KantanProApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = KantanProApp.entitlements; path = KantanProApp/KantanProApp.entitlements; sourceTree = "<group>"; };
 		E8BD50C52E8DFC0800437CB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E8BD50C72E8DFC0800437CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8BD50C72E8DFC0800437CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = KantanProApp/Info.plist; sourceTree = "<group>"; };
 		E8BD50CC2E8DFC0900437CB9 /* KantanProAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KantanProAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8BD50D02E8DFC0900437CB9 /* KantanProAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KantanProAppTests.swift; sourceTree = "<group>"; };
 		E8BD50D62E8DFC0900437CB9 /* KantanProAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KantanProAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8BD50DA2E8DFC0900437CB9 /* KantanProAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KantanProAppUITests.swift; sourceTree = "<group>"; };
 		E8BD50DC2E8DFC0900437CB9 /* KantanProAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KantanProAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		E8BD50E92E8E0A4100437CB9 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
-		E8BD50EB2E8E0AF100437CB9 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
-		E8BD50ED2E8E0B3000437CB9 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
-		E8BD50EF2E8E0B5400437CB9 /* Invoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invoice.swift; sourceTree = "<group>"; };
-		E8BD50F12E8E0D8500437CB9 /* JobListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListView.swift; sourceTree = "<group>"; };
-		E8BD50F32E8E0DA900437CB9 /* DocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentView.swift; sourceTree = "<group>"; };
-		E8BD50F52E8E0DF700437CB9 /* CustomerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerView.swift; sourceTree = "<group>"; };
-		E8BD50F72E8E0E1800437CB9 /* ServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceView.swift; sourceTree = "<group>"; };
-		E8BD50F92E8E0E4A00437CB9 /* PartnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerView.swift; sourceTree = "<group>"; };
-		E8BD50FB2E8E0E6700437CB9 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		E8BD50E92E8E0A4100437CB9 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Customer.swift; path = KantanProApp/Customer.swift; sourceTree = "<group>"; };
+		E8BD50EB2E8E0AF100437CB9 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Order.swift; path = KantanProApp/Order.swift; sourceTree = "<group>"; };
+		E8BD50ED2E8E0B3000437CB9 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Service.swift; path = KantanProApp/Service.swift; sourceTree = "<group>"; };
+		E8BD50EF2E8E0B5400437CB9 /* Invoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Invoice.swift; path = KantanProApp/Invoice.swift; sourceTree = "<group>"; };
+		E8BD50F12E8E0D8500437CB9 /* JobListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JobListView.swift; path = KantanProApp/JobListView.swift; sourceTree = "<group>"; };
+		E8BD50F32E8E0DA900437CB9 /* DocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DocumentView.swift; path = KantanProApp/DocumentView.swift; sourceTree = "<group>"; };
+		E8BD50F52E8E0DF700437CB9 /* CustomerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomerView.swift; path = KantanProApp/CustomerView.swift; sourceTree = "<group>"; };
+		E8BD50F72E8E0E1800437CB9 /* ServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ServiceView.swift; path = KantanProApp/ServiceView.swift; sourceTree = "<group>"; };
+		E8BD50F92E8E0E4A00437CB9 /* PartnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PartnerView.swift; path = KantanProApp/PartnerView.swift; sourceTree = "<group>"; };
+		E8BD50FB2E8E0E6700437CB9 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReportView.swift; path = KantanProApp/ReportView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,26 +100,6 @@
 		E8BD50AC2E8DFC0400437CB9 = {
 			isa = PBXGroup;
 			children = (
-				E8BD50B72E8DFC0400437CB9 /* KantanProApp */,
-				E8BD50CF2E8DFC0900437CB9 /* KantanProAppTests */,
-				E8BD50D92E8DFC0900437CB9 /* KantanProAppUITests */,
-				E8BD50B62E8DFC0400437CB9 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		E8BD50B62E8DFC0400437CB9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E8BD50B52E8DFC0400437CB9 /* KantanProApp.app */,
-				E8BD50CC2E8DFC0900437CB9 /* KantanProAppTests.xctest */,
-				E8BD50D62E8DFC0900437CB9 /* KantanProAppUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E8BD50B72E8DFC0400437CB9 /* KantanProApp */ = {
-			isa = PBXGroup;
-			children = (
 				E8BD50F72E8E0E1800437CB9 /* ServiceView.swift */,
 				E8BD50B82E8DFC0400437CB9 /* KantanProApp.swift */,
 				E8BD50BA2E8DFC0400437CB9 /* Persistence.swift */,
@@ -138,8 +118,20 @@
 				E8BD50F52E8E0DF700437CB9 /* CustomerView.swift */,
 				E8BD50F92E8E0E4A00437CB9 /* PartnerView.swift */,
 				E8BD50FB2E8E0E6700437CB9 /* ReportView.swift */,
+				E8BD50CF2E8DFC0900437CB9 /* KantanProAppTests */,
+				E8BD50D92E8DFC0900437CB9 /* KantanProAppUITests */,
+				E8BD50B62E8DFC0400437CB9 /* Products */,
 			);
-			path = KantanProApp;
+			sourceTree = "<group>";
+		};
+		E8BD50B62E8DFC0400437CB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8BD50B52E8DFC0400437CB9 /* KantanProApp.app */,
+				E8BD50CC2E8DFC0900437CB9 /* KantanProAppTests.xctest */,
+				E8BD50D62E8DFC0900437CB9 /* KantanProAppUITests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		E8BD50C42E8DFC0800437CB9 /* Preview Content */ = {
@@ -147,7 +139,8 @@
 			children = (
 				E8BD50C52E8DFC0800437CB9 /* Preview Assets.xcassets */,
 			);
-			path = "Preview Content";
+			name = "Preview Content";
+			path = "KantanProApp/Preview Content";
 			sourceTree = "<group>";
 		};
 		E8BD50CF2E8DFC0900437CB9 /* KantanProAppTests */ = {
@@ -677,7 +670,8 @@
 				E8BD50BD2E8DFC0400437CB9 /* KantanProApp.xcdatamodel */,
 			);
 			currentVersion = E8BD50BD2E8DFC0400437CB9 /* KantanProApp.xcdatamodel */;
-			path = KantanProApp.xcdatamodeld;
+			name = KantanProApp.xcdatamodeld;
+			path = KantanProApp/KantanProApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
